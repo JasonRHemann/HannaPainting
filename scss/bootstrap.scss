@@ -23,6 +23,12 @@ $border-radius: 8px;
 
 $link-decoration: none;
 
-$enable-negative-margins: true;
+$enable-negative-margins: false;
 
 @import "bootstrap/scss/bootstrap";
+
+@media only screen and (max-width: 100px) and (min-width: 500px){
+    #hero {
+        background-image:hidden;
+    }
+}
